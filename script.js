@@ -14,7 +14,6 @@ function calculateResult() {
   try {
     const result = eval(displayValue);
     document.querySelector('.display').value = result;
-
     displayValue = result.toString();
   } catch (error) {
     document.querySelector('.display').value = 'Error';
