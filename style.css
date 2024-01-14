@@ -13,7 +13,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     width: 240px;
-    background-color: #f3f3f3;
+    background-color: #434141;
   }
   
   .display {
@@ -40,5 +40,30 @@ body {
   
   button:hover {
     background-color: #ccc;
+  }
+
+  .logic-btn{
+    background-color: rgb(231, 183, 10);
+    color: black;
+  }
+
+  .logic-btn:hover{
+    background-color: rgb(250, 231, 164);
+  }
+
+  .equal-btn{
+    background-color: rgb(111, 145, 246);
+  }
+
+  .equal-btn:hover{
+    background-color: rgb(166, 186, 246);
+  }
+
+  .cancel-btn{
+    background-color: rgb(254, 78, 78);
+  }
+
+  .cancel-btn:hover{
+    background-color: rgb(254, 161, 161);
   }
   
